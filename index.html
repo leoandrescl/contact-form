@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Contact Form</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+</head>
+<body>
+    <form action="send.php" method="post">
+        <h2>CONTACT ME</h2>
+        <input type="text" name="name" placeholder="Your Name (required)" required>
+        <input type="email" name="email" placeholder="Your Email (required)" required>
+        <input type="text" name="phone" placeholder="Your phone">
+        <input type="text" name="subject" placeholder="Subject">
+        <textarea cols="30" rows="10" name="message" placeholder=""></textarea>
+        <input type="submit" value="SEND" id="button">
+    </form>
+</body>
+</html>
